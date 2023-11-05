@@ -1,0 +1,41 @@
+.topicos{
+    background: var(--azul-degrade);
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 0 1.5em;
+}
+.topicos__titulo{
+    color: var(--branco);
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 1.5em 1.5em 0;
+
+}
+
+.topicos__botoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5em 0 0;   
+    
+}
+
+.topicos__botoes-botao{
+    display: flex;
+    margin: 0 0 1em;
+}
+
+.topicos__botoes-botao-link{
+    display: flex;
+    background-color: var(--laranja);
+    text-decoration: none;
+    color: var(--branco);
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1em 1em;
+    margin: 0 0.5em;
+    text-align: center;
+}
