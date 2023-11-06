@@ -59,7 +59,29 @@ font-weight: 700;
     }
 
     .banner__pesquisa{
-      
+        width: 50%;
+        display: flex;
+        text-align: center;    
+        justify-content: center;
+        margin-left: 23vw;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .banner{
+        text-align: center;
+        align-items: center;
+    }
+    
+
+    .banner__titulo{
+        font-size: 36px;
+    }
+
+    .banner__pesquisa{
+        width: 50%;      
         display: flex;
         text-align: center;    
         justify-content: center;
